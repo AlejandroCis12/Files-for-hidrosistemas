@@ -58,7 +58,7 @@ def main():
     total_pages = len(reader.pages)
     print(f"El PDF tiene {total_pages} páginas")
 
-    Names=["CPVC Agua caliente","Hidráulica Inglés C-40 PVC","Hidráulica Inglés C-80 PVC","Hidráulica Inglés campana PVC","Tubería Galvanizada","Toma domiciliaria","Medidores y válvulas","Alcantarillado métrico campana","Tubería de PEAD corrugado","Linea Sanitaria","Brocales y rejillas PEAR","Soportería","Tubería Eléctrica PVC Lisa y Corrugada"]
+    Names=["CPVC Agua caliente ","Hidráulica Inglés C-40 PVC","Hidráulica Inglés C-80 PVC","Hidráulica Inglés campana PVC","Tubería Galvanizada","Toma domiciliaria","Medidores y válvulas","Alcantarillado métrico campana","Tubería de PEAD corrugado","Linea Sanitaria","Brocales y rejillas PEAR","Soportería","Tubería Eléctrica PVC Lisa y Corrugada"]
     
     for i in range(0, total_pages, 2):
         writer = PdfWriter()
